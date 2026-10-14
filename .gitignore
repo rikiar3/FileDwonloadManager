@@ -1,0 +1,33 @@
+# Python bytecode and test/lint caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Build and packaging output
+/build/
+/dist/
+/*.spec
+
+# Download partials and temporary files
+*.part[0-9]*
+*.assembling
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
